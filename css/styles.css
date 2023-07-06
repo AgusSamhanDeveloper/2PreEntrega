@@ -1,46 +1,235 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link {
+  color: black;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  margin: 20px;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-size: 300%;
+  cursor: pointer;
+  background-image: linear-gradient(to left, #362b18, #bba275, #463518);
+  transition: 0.8s;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  background-position: right;
+}
+
+.row > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* TEAMS ESTILOS */
+header {
+    background-color: #000000;
+  grid-area: header;
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  padding-top: 10px;
+}
+
+.menu nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu nav ul {
+  display: flex;
+  font-size: 30px;
+}
+.menu nav ul li {
+  list-style-type: none;
+}
+
+.link {
+    color: #50422a;
+  text-decoration: none;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-size: 300%;
+  background-image: linear-gradient(to right, #212020, #000000);
+  transition: 0.6s;
+}
+.link:hover {
+  background-position: right;
+}
+
+main {
+  grid-area: main;
+}
+
+main h1 {
+  font-size: 40px;
+  justify-content: center;
+  text-align: center;
+}
+.titulos {
+    color: #50422a;
+  font-size: 25px;
+  justify-content: center;
+  text-align: center;
+background-color: #000000;
+border-radius: 0px 0px 10px 10px;
+border-top: 2px solid snow;
+border-bottom: 2px solid snow;
+
+}
+.east {
+  background-image: url(../img/Background/b30cd6f1ab3dd2a095cfc4622423dd6a.jpg);
+}
+
+.west {
+  background-image: url(../img/Background/back_west.jpeg);
+  border-bottom: black solid 10px;
+}
+.west_east_team {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.caja {
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 30px;
+  border: 1px solid black;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.caja:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.caja p {
+  line-height: 1;
+  color: #6a6a6a;
+  text-align: center;
+}
+
+.caja a {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  margin-top: 10px;
+  color: #362b18;
+  border: 1px solid #362b18;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+
+.caja a:hover {
+  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  color: #fff;
+}
+.caja img {
+  width: 200px;
+  height: 260px;
+}
+
+footer {
+    background-color: #000000;
+    color: #50422a;
+    text-align: center;
+    justify-content: center;
+  grid-area: footer;
+  border-top: black solid 10px;
+  padding: 20px;
+}
+/* TEAMS ESTILOS */
+.campeones{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.caja_champ {
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 30px;
+  border: 1px solid black;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.caja_champ:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.caja_champ h3 {
+  line-height: 2;
+  color: #6a6a6a;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 
-body{
-    height: 100vh;
-    background-image: url(../img/Background/abstract-black-and-gold-background-poster-with-dynamic-waves-vector.jpg);
+.caja_champ p {
+  width: 550px;
+  padding: 10px;
+  line-height: 1;
+  color: #6a6a6a;
+  text-align: center;
 }
 
-header{
-    height: 15vh;
+.caja_champ a {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  margin-top: 10px;
+  color: #362b18;
+  border: 1px solid #362b18;
+  border-radius: 4px;
+  transition: all 400ms ease;
 }
 
-main{
-    height: 75vh;
+.caja_champ a:hover {
+  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  color: #fff;
 }
-
-footer{
-    height: 10vh;
-}
-
-.navbar {
-    --bs-navbar-padding-x: 0;
-    --bs-navbar-padding-y: 0.5rem;
-    --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
-    --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
-    --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
-    --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
-    --bs-navbar-brand-padding-y: 0.3125rem;
-    --bs-navbar-brand-margin-end: 1rem;
-    --bs-navbar-brand-font-size: 1.25rem;
-    --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
-    --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1);
-    --bs-navbar-nav-link-padding-x: 0.5rem;
-    --bs-navbar-toggler-padding-y: 0.25rem;
-    --bs-navbar-toggler-padding-x: 0.75rem;
-    --bs-navbar-toggler-font-size: 1.25rem;
-    --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
-    --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
-    --bs-navbar-toggler-border-radius: var(--bs-border-radius);
-    --bs-navbar-toggler-focus-width: 0.25rem;
-    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+.caja_champ img {
+  width:560px; 
+  height:315px; 
 }
