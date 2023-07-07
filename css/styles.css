@@ -13,50 +13,40 @@ body{
   font-family: 'Old Standard TT', serif;
 }
 
-body {
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr 4fr 1fr;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas:
-    "header header"
-    "main main"
-    "footer footer";
+
+
+/* INDEX */
+
+.navbar-dark, .navbar[data-bs-theme=dark] {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.55);
 }
 
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link {
-  color: black;
-  border: 3px solid rgba(255, 255, 255, 0.1);
-  justify-content: center;
-  margin: 20px;
-  text-align: center;
-  width: 100px;
-  height: 50px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  background-size: 300%;
-  cursor: pointer;
-  background-image: linear-gradient(to left, #362b18, #bba275, #463518);
-  transition: 0.8s;
+.nav-link {
+  border: 3px solid #e6b980;
+  border-radius: 10px;
+  margin: 10px;
 }
 
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link:hover {
-  background-position: right;
+.p-2 {
+  padding: 45px 0.5rem 45px 0.5rem!important;
+}
+.bg-primary {
+  background-color:#50422a !important;
+} 
+#index h1, p{
+  font-family:'Abril Fatface';
+} 
+.w-100 {
+  border: 10px solid black;
 }
 
-.row > * {
-  padding-right: 0;
-  padding-left: 0;
-}
 
+/* INDEX */
 /* TEAMS ESTILOS */
 .header_team{
   background: #780206;
 background: -webkit-linear-gradient(to bottom, #061161, #780206);
 background: linear-gradient(to bottom, #061161, #780206);
-  grid-area: header;
   display: flex;
 }
 
@@ -96,9 +86,7 @@ background: linear-gradient(to bottom, #061161, #780206);
   background-position: right;
 }
 
-main {
-  grid-area: main;
-}
+
 
 main h1 {
   font-size: 40px;
@@ -243,10 +231,6 @@ border-bottom: 2px solid snow;
   transition: all 400ms ease;
 }
 
-.caja_champ:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-  transform: translateY(-3%);
-}
 
 .caja_champ h3 {
   line-height: 2;
@@ -331,7 +315,7 @@ border-bottom: 2px solid snow;
 
 .caja_rivals {
   margin: 15px;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   background-color: #000000;
   border-radius: 30px;
@@ -370,4 +354,4 @@ border-bottom: 2px solid snow;
   font-size: 2rem;
 }
 
-/* Rivalries Estilos */
+Rivalries Estilos
