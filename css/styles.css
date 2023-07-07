@@ -1,9 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+}
+
+header,footer{
+  font-family: 'Abril Fatface';
+}
+
+body{
+  font-family: 'Old Standard TT', serif;
 }
 
 body {
@@ -45,8 +52,10 @@ body {
 }
 
 /* TEAMS ESTILOS */
-header {
-    background-color: #000000;
+.header_team{
+  background: #780206;
+background: -webkit-linear-gradient(to bottom, #061161, #780206);
+background: linear-gradient(to bottom, #061161, #780206);
   grid-area: header;
   display: flex;
 }
@@ -71,7 +80,7 @@ header {
 }
 
 .link {
-    color: #50422a;
+  color: #556195;
   text-decoration: none;
   border: 3px solid rgba(255, 255, 255, 0.1);
   margin: 20px;
@@ -80,7 +89,7 @@ header {
   border-radius: 8px;
   cursor: pointer;
   background-size: 300%;
-  background-image: linear-gradient(to right, #212020, #000000);
+  background-image: linear-gradient(to bottom, #000428, #004e92);
   transition: 0.6s;
 }
 .link:hover {
@@ -96,15 +105,17 @@ main h1 {
   justify-content: center;
   text-align: center;
 }
-.titulos {
-    color: #50422a;
+
+.tit_teams{
+  color: #6a6a6a;
   font-size: 25px;
   justify-content: center;
   text-align: center;
-background-color: #000000;
-border-radius: 0px 0px 10px 10px;
-border-top: 2px solid snow;
-border-bottom: 2px solid snow;
+background: #780206;
+background: -webkit-linear-gradient(to top, #061161, #780206);
+background: linear-gradient(to top, #061161, #780206);
+;
+
 
 }
 .east {
@@ -113,7 +124,6 @@ border-bottom: 2px solid snow;
 
 .west {
   background-image: url(../img/Background/back_west.jpeg);
-  border-bottom: black solid 10px;
 }
 .west_east_team {
   width: 100%;
@@ -156,7 +166,7 @@ border-bottom: 2px solid snow;
 }
 
 .caja a:hover {
-  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  background-image: linear-gradient(to top, #061161, #780206);
   color: #fff;
 }
 .caja img {
@@ -174,11 +184,51 @@ footer {
   padding: 20px;
 }
 /* TEAMS ESTILOS */
+
+/* CHAMPIONS ESTILOS */
+
+.header_champ{
+  background-color: #000000;
+  grid-area: header;
+  display: flex;
+}
+
+.tit_champ {
+  color: #50422a;
+font-size: 25px;
+justify-content: center;
+text-align: center;
+background-color: #000000;
+border-top: 2px solid snow;
+border-bottom: 2px solid snow;
+}
+
+.champs{
+  background-image: url(../img/Background/back-champ.jpg);
+}
+
 .campeones{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.link_champ {
+    color: #50422a;
+  text-decoration: none;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-size: 300%;
+  background-image: linear-gradient(to right, #212020, #000000);
+  transition: 0.6s;
+}
+.link_champ:hover {
+  background-position: right;
 }
 
 .caja_champ {
@@ -233,3 +283,5 @@ footer {
   width:560px; 
   height:315px; 
 }
+
+/* CHAMPIONS ESTILOS */
