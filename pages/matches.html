@@ -1,103 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-    crossorigin="anonymous"
-  />
-    <link rel="stylesheet" href="../css/styles.css">
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
     <title>Document</title>
-</head>
-<body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-                <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"
-                  ><img class="logo" src="../img/Background/NBA-Logo.png" alt="" width="100px"
-                /></a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarNav"
-                  aria-controls="navbarNav"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
+  </head>
+  <body class="champs">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+          <a class="navbar-brand"  href="../index.html"
+            ><img
+              class="logo"
+              src="../img/Background/NBA-Logo.png"
+              alt=""
+              width="100px"
+            /></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="../pages/teams.html"
+                  >Teams</a
                 >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="../pages/teams.html"
-                        >Teams</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="../pages/matches.html">Matches</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="../pages/rivalries.html">Rivalries</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="../pages/champions.html">Champions</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </header>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/matches.html">Matches</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/rivalries.html">Rivalries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/champions.html">Champions</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-          <main>
-                <div class= "container-fluid justify-content-center align-items-center" role="toolbar" aria-label="Toolbar with button groups">
+    <main>
+      <div class= "container " role="toolbar" aria-label="Toolbar with button groups">
                     <div class="btn-group me-2" role="group" aria-label="First group">
-                      <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Este/580px-Brooklyn_Nets.png" alt=""></button>
-                      <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Este/Atlanta_Hawks_logo.png" alt=""></button>
-                      <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Este/Boston_Celtics.png" alt=""></button>
-                      <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Este/Charlotte_Hornets_(2014).png" alt=""></button>
-                      <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Este/chicago-bulls-logo.png" alt=""></button>
-                      <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Este/Cleveland_Cavaliers_secondary_logo.png" alt=""></button>
-                      <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Este/Indiana_Pacers.png" alt=""></button>
-                      <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Este/Logo_of_the_Detroit_Pistons.png" alt=""></button>
-                      <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Este/Milwaukee_Bucks_logo.png" alt=""></button>
-                      <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Este/nba-miami-heat-logo.png" alt=""></button>
-                      <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Este/New_York_Knicks_logo.png" alt=""></button>
-                      <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Este/Orlando_Magic_logo.png" alt=""></button>
-                      <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Este/Philadelphia_76ers_logo.png" alt=""></button>
-                      <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Este/toronto-raptors-logo.png" alt=""></button>
-                      <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Este/Washington_Wizards_logo.png" alt=""></button>
+                      <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Este/580px-Brooklyn_Nets.png" alt=""></button>
+                      <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Este/Atlanta_Hawks_logo.png" alt=""></button>
+                      <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Este/Boston_Celtics.png" alt=""></button>
+                      <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Este/Charlotte_Hornets_(2014).png" alt=""></button>
+                      <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Este/chicago-bulls-logo.png" alt=""></button>
+                      <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Este/Cleveland_Cavaliers_secondary_logo.png" alt=""></button>
+                      <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Este/Indiana_Pacers.png" alt=""></button>
+                      <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Este/Logo_of_the_Detroit_Pistons.png" alt=""></button>
+                      <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Este/Milwaukee_Bucks_logo.png" alt=""></button>
+                      <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Este/nba-miami-heat-logo.png" alt=""></button>
+                      <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Este/New_York_Knicks_logo.png" alt=""></button>
+                      <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Este/Orlando_Magic_logo.png" alt=""></button>
+                      <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Este/Philadelphia_76ers_logo.png" alt=""></button>
+                      <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Este/toronto-raptors-logo.png" alt=""></button>
+                      <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Este/Washington_Wizards_logo.png" alt=""></button>
                   </div>
                   <div class="btn-group me-2" role="group" aria-label="Second group">
-                    <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Oeste/1024px-Los_Angeles_Lakers_logo.png" alt=""></button>
-                    <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Oeste/800px-Houston-Rockets-logo.png" alt=""></button>
-                    <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Oeste/Golden_State_Warriors_logo.png" alt=""></button>
-                    <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Oeste/grizzlies-logo.png" alt=""></button>
-                    <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Oeste/logo-Denver-Nuggets.png" alt=""></button>
-                    <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Oeste/Logo-Minnesota-Timberwolves.png" alt=""></button>
-                    <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Oeste/los-angeles-clippers-logo.png" alt=""></button>
-                    <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Oeste/nba-dallas-mavericks-logo.png" alt=""></button>
-                    <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Oeste/oklahoma-city-thunder-logo.png" alt=""></button>
-                    <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Oeste/pellicans-logo.png" alt=""></button>
-                    <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Oeste/Phoenix_Suns_logo.png" alt=""></button>
-                    <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Oeste/SacramentoKings.png" alt=""></button>
-                    <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Oeste/San-Antonio.png" alt=""></button>
-                    <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Oeste/TrailBlazers.png" alt=""></button>
-                    <button type="button" class="btn btn-primary"><img src="../img/Equipos/Conferencia-Oeste/utah-logo.png" alt=""></button>
+                    <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Oeste/1024px-Los_Angeles_Lakers_logo.png" alt=""></button>
+                    <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Oeste/800px-Houston-Rockets-logo.png" alt=""></button>
+                    <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Oeste/Golden_State_Warriors_logo.png" alt=""></button>
+                    <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Oeste/grizzlies-logo.png" alt=""></button>
+                    <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Oeste/logo-Denver-Nuggets.png" alt=""></button>
+                    <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Oeste/Logo-Minnesota-Timberwolves.png" alt=""></button>
+                    <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Oeste/los-angeles-clippers-logo.png" alt=""></button>
+                    <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Oeste/nba-dallas-mavericks-logo.png" alt=""></button>
+                    <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Oeste/oklahoma-city-thunder-logo.png" alt=""></button>
+                    <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Oeste/pellicans-logo.png" alt=""></button>
+                    <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Oeste/Phoenix_Suns_logo.png" alt=""></button>
+                    <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Oeste/SacramentoKings.png" alt=""></button>
+                    <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Oeste/San-Antonio.png" alt=""></button>
+                    <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Oeste/TrailBlazers.png" alt=""></button>
+                    <button type="button" class="btn btn-primary"><img class="botonera" src="../img/Equipos/Conferencia-Oeste/utah-logo.png" alt=""></button>
                   </div>
     
                 </div> 
     
-            </section>
+            </section>     
 
-              <script
-              src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-              integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-              crossorigin="anonymous"
-            ></script>
-          </main>
-</body>
+      <section class="cont_match">
+        <h1>Matches</h1>
+        <div class="match">
+          <div class="match_caja">
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Oeste/1024px-Los_Angeles_Lakers_logo.png"
+              alt=""
+            />
+            <h2>Los Angeles Lakers</h2>
+            <h3>123-110</h3>
+            <h2>Houston Rockets</h2>
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Oeste/800px-Houston-Rockets-logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="match">
+          <div class="match_caja">
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Oeste/Golden_State_Warriors_logo.png"
+              alt=""
+            />
+            <h2>Golden State Warriors</h2>
+            <h3>110-90</h3>
+            <h2>Memphis Grizzlies</h2>
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Oeste/grizzlies-logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="match">
+          <div class="match_caja">
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Oeste/logo-Denver-Nuggets.png"
+              alt=""
+            />
+            <h2>Denver Nuggets</h2>
+            <h3>97-86</h3>
+            <h2>Minnesota Timberwolves</h2>
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Oeste/Logo-Minnesota-Timberwolves.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="match">
+          <div class="match_caja">
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Oeste/los-angeles-clippers-logo.png"
+              alt=""
+            />
+            <h2>Los Angeles Clippers</h2>
+            <h3>100-110</h3>
+            <h2>Dallas Mavericks</h2>
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Oeste/nba-dallas-mavericks-logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="match">
+          <div class="match_caja">
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Oeste/oklahoma-city-thunder-logo.png"
+              alt=""
+            />
+            <h2>Oklahoma City Thunder</h2>
+            <h3>90-98</h3>
+            <h2>New Orleans Pellicans</h2>
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Oeste/pellicans-logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="match">
+          <div class="match_caja">
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Oeste/Phoenix_Suns_logo.png"
+              alt=""
+            />
+            <h2>Phoenix Suns</h2>
+            <h3>60-75</h3>
+            <h2>Sacramento Kings</h2>
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Oeste/SacramentoKings.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="match">
+          <div class="match_caja">
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Oeste/San-Antonio.png"
+              alt=""
+            />
+            <h2>San Antonio Spurs</h2>
+            <h3>120-97</h3>
+            <h2>Portland Trail Blazzers</h2>
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Oeste/TrailBlazers.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="match">
+          <div class="match_caja">
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Oeste/utah-logo.png"
+              alt=""
+            />
+            <h2>Utah Jazz</h2>
+            <h3>98-97</h3>
+            <h2>Brooklyn Nets</h2>
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Este/580px-Brooklyn_Nets.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="match">
+          <div class="match_caja">
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Este/Boston_Celtics.png"
+              alt=""
+            />
+            <h2>Boston Celtics</h2>
+            <h3>120-97</h3>
+            <h2>Atlanta Hawks</h2>
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Este/Atlanta_Hawks_logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="match">
+          <div class="match_caja">
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Este/Charlotte_Hornets_(2014).png"
+              alt=""
+            />
+            <h2>Charlotte Hornets</h2>
+            <h3>100-97</h3>
+            <h2>Chicago Bulls</h2>
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Este/chicago-bulls-logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="match">
+          <div class="match_caja">
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Este/Cleveland_Cavaliers_secondary_logo.png"
+              alt=""
+            />
+            <h2>Cleveland Cavaliers</h2>
+            <h3>120-130</h3>
+            <h2>Indiana Pacers</h2>
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Este/Indiana_Pacers.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="match">
+          <div class="match_caja">
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Este/Logo_of_the_Detroit_Pistons.png"
+              alt=""
+            />
+            <h2>Detroit Pistons</h2>
+            <h3>78-83</h3>
+            <h2>Milwaukee Bucks</h2>
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Este/Milwaukee_Bucks_logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="match">
+          <div class="match_caja">
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Este/nba-miami-heat-logo.png"
+              alt=""
+            />
+            <h2>Miami Heat</h2>
+            <h3>92-100</h3>
+            <h2>New York Knicks</h2>
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Este/New_York_Knicks_logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="match">
+          <div class="match_caja">
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Este/Orlando_Magic_logo.png"
+              alt=""
+            />
+            <h2>Orlando Magic</h2>
+            <h3>82-100</h3>
+            <h2>Philadelphia 76ers</h2>
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Este/Philadelphia_76ers_logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="match">
+          <div class="match_caja">
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Este/toronto-raptors-logo.png"
+              alt=""
+            />
+            <h2>Toronto Raptors</h2>
+            <h3>87-75</h3>
+            <h2>Washignton Wizards</h2>
+            <img class="botonera"
+              src="../img/Equipos/Conferencia-Este/Washington_Wizards_logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+        
+      </section>
+    </main>
+    <footer>All rigths reserved 2023</footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

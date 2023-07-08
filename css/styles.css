@@ -28,11 +28,12 @@ body{
 }
 
 .p-2 {
-  padding: 45px 0.5rem 45px 0.5rem!important;
+  padding: 45px 0px 45px 0px!important;
 }
 .bg-primary {
   background-color:#50422a !important;
 }
+
 #index h1, p{
   font-family:'Abril Fatface';
 }
@@ -51,6 +52,7 @@ body{
 
 .navbar-nav {
   text-align: center;
+  justify-content: center;
 }
 .btn-primary {
   --bs-btn-color: #fff;
@@ -69,19 +71,55 @@ body{
   --bs-btn-disabled-border-color: #0d6efd;
 }
 
-img, svg {
+.botonera{
   width: 65px;
   height: 80px;
 }
 
+.btn {
+  --bs-btn-padding-x: 5px;
+  --bs-btn-padding-y: 5px;
+  border-radius: 0;
+}
+
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
   width: 100%;
-  padding-right: 20px;
-  padding-left: 4px;
+  margin: 0px 0px 0px 50px;
 }
 
 .btn-group, .btn-group-vertical {
   width: 100% !important;
+}
+
+
+.cont_match{
+  padding: 0px 10px 0px 10px ;
+  margin: 20px 0px 0px 150px;
+  justify-content:  center ;
+  align-items: center;
+  width: 70%;
+  color: #afa8a8;
+  background-color: #000000;
+}
+
+.match{
+  width: 100%;
+  display: block;
+  padding: 10px;
+  background-color: #000000;
+  border: 3px solid grey;
+  margin: 5px;
+}
+
+.match_caja{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.match_caja h2,h3{
+  margin: 15px;
+  color: #afa8a8;
 }
 /* MATCHES ESTILOS */
 
