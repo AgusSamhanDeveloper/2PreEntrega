@@ -32,16 +32,60 @@ body{
 }
 .bg-primary {
   background-color:#50422a !important;
-} 
+}
 #index h1, p{
   font-family:'Abril Fatface';
-} 
+}
 .w-100 {
   border: 10px solid black;
 }
 
 
 /* INDEX */
+
+/* MATCHES ESTILOS */
+
+.logo{
+  width: 150px;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg:  #780206;
+  --bs-btn-border-color: #000000;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0b5ed7;
+  --bs-btn-hover-border-color: #000000;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #0a58ca;
+  --bs-btn-active-border-color: #000000;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+
+img, svg {
+  width: 65px;
+  height: 80px;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 4px;
+}
+
+.btn-group, .btn-group-vertical {
+  width: 100% !important;
+}
+/* MATCHES ESTILOS */
+
+
 /* TEAMS ESTILOS */
 .header_team{
   background: #780206;
@@ -264,8 +308,8 @@ border-bottom: 2px solid snow;
   color: #fff;
 }
 .caja_champ img {
-  width:560px; 
-  height:315px; 
+  width:560px;
+  height:315px;
 }
 
 /* CHAMPIONS ESTILOS */
@@ -311,7 +355,7 @@ border-bottom: 2px solid snow;
 
   75%{margin-left: -300%;}
   100%{margin-left: -300%;}
-} 
+}
 
 .caja_rivals {
   margin: 15px;
@@ -354,4 +398,4 @@ border-bottom: 2px solid snow;
   font-size: 2rem;
 }
 
-Rivalries Estilos
+/* Rivalries Estilos */
