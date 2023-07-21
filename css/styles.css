@@ -1,342 +1,262 @@
-
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
+*{
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
 }
 
-header,footer{
-  font-family: 'Abril Fatface';
-}
-
-body{
-  font-family: 'Old Standard TT', serif;
-}
-
-
-
-/* INDEX */
-
-.navbar-dark, .navbar[data-bs-theme=dark] {
-  border-bottom: 3px solid rgba(255, 255, 255, 0.55);
-}
-
+/* NavBar */
 .nav-link {
-  border: 3px solid #e6b980;
+  color: snow !important;
+  padding: 10px !important;
+  margin: 1px !important;
+  background-color: #780206;
+  border: 1px solid black;
+  color: black !important;
   border-radius: 10px;
-  margin: 10px;
 }
 
-.p-2 {
-  padding: 45px 0px 45px 0px!important;
-}
-.bg-primary {
-  background-color:#50422a !important;
-}
+.nav-link:hover{
+  background-color: #000046 !important;
+  border: 1px solid rgb(0, 0, 0);
+  color: snow !important;
+  
+} 
 
-#index h1, p{
-  font-family:'Abril Fatface';
-}
-.w-100 {
-  border: 10px solid black;
+.bg-dark {
+  background-image: linear-gradient(to right, #780206, #061161) !important;
 }
 
-
-/* INDEX */
-
-/* MATCHES ESTILOS */
-
-.logo{
-  width: 150px;
+.d-flex {
+  padding: 5px !important;
+  display: flex !important;
 }
 
-.navbar-nav {
-  text-align: center;
-  justify-content: center;
+.h1, h1 {
+  font-size: 35px !important;
+  color: rgb(0, 0, 0);
 }
+/* NavBar */
+
+/* MAIN */
+
+
+/* FONDO */
+.bg-danger{
+  background-image: url(../img/Background/back-index.jpg);
+}
+/* FONDO */
+
+/* TEXTO */
+.h2, h2{
+  color: black;
+  font-weight: 500;
+}
+
+p {
+  color: black;
+  font-weight: 700;
+}
+/* TEXTO */
+
+
+/* CARROUSEL */
+.contenedor{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.contenedor ul{
+  display: flex;
+}
+
+.contenedor li{
+  width: 100%;
+  list-style: none;
+}
+.contenedor img{
+  width: 100%;
+  height: 100%;
+}
+
+/* CARROUSEL */
+
+/* MAIN */
+
+
+/* FOOTER */
+.h3, h3{
+  color: rgb(0, 0, 0);
+}
+/* FOOTER */
+
+/* COLORES BOTONES BACK Y HOVER */
+
 .btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg:  #780206;
-  --bs-btn-border-color: #000000;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #0b5ed7;
-  --bs-btn-hover-border-color: #000000;
-  --bs-btn-focus-shadow-rgb: 49,132,253;
+  width: 50px;
+  height: 80px;
+  --bs-btn-color: #780206;
+  --bs-btn-bg: #4c0204;
+  --bs-btn-border-color: #780206;
+  --bs-btn-hover-color: #780206;
+  --bs-btn-hover-bg: #780206;;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-border-color: #ffffff;
   --bs-btn-active-color: #000000;
-  --bs-btn-active-bg: #0a58ca;
-  --bs-btn-active-border-color: #000000;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #0d6efd;
-  --bs-btn-disabled-border-color: #0d6efd;
+  --bs-btn-active-bg: #780206;
+  border-radius: 0px;
 }
+
+/* COLORES BOTONES BACK Y HOVER */
+
+/* TAMAÑO DE LOS ESCUDOS */
 
 .botonera{
-  width: 65px;
-  height: 80px;
+  width: 80%;
+  height: 80%;
 }
 
-.btn {
-  --bs-btn-padding-x: 5px;
-  --bs-btn-padding-y: 5px;
-  border-radius: 0;
+/* TAMAÑO DE LOS ESCUDOS */
+
+/* CAJAS DE PARTIDOS CON RESULTADOS */
+
+.cajas{
+  border: 2px solid black;
+  background-color: #4c0204;
+  height: 80%;
 }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-  width: 100%;
-  margin: 0px 0px 0px 50px;
+.cajas:hover{
+  background-color: #780206;
 }
 
-.btn-group, .btn-group-vertical {
-  width: 100% !important;
-}
+/* ALINEADO DE ITEMS DE LOS PARTIDOS */
 
-
-.cont_match{
-  padding: 0px 10px 0px 10px ;
-  margin: 20px 0px 0px 150px;
-  justify-content:  center ;
-  align-items: center;
-  width: 70%;
-  color: #afa8a8;
-  background-color: #000000;
-}
-
-.match{
-  width: 100%;
-  display: block;
-  padding: 10px;
-  background-color: #000000;
-  border: 3px solid grey;
-  margin: 5px;
-}
-
-.match_caja{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.match_caja h2,h3{
-  margin: 15px;
-  color: #afa8a8;
-}
-/* MATCHES ESTILOS */
-
-
-/* TEAMS ESTILOS */
-.header_team{
-  background: #780206;
-background: -webkit-linear-gradient(to bottom, #061161, #780206);
-background: linear-gradient(to bottom, #061161, #780206);
-  display: flex;
-}
-
-.menu {
-  display: flex;
-  padding-top: 10px;
-}
-
-.menu nav {
+.m-1 {
+  margin: 0.25rem !important;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.menu nav ul {
+.col-2 {
   display: flex;
-  font-size: 30px;
-}
-.menu nav ul li {
-  list-style-type: none;
+  justify-content: center;
+  align-items: center;
 }
 
-.link {
-  color: #556195;
+/* ALINEADO DE ITEMS DE LOS PARTIDOS */
+
+.matches{
+  width: 80%;
+  height: 80%;
+}
+
+/* CAJAS DE PARTIDOS CON RESULTADOS */
+
+/* SECCION RIVALRIES */
+
+/* IMAGENES */
+.slider{
+  width: 100%;
+}
+
+.slider ul{
+  display: flex;
+}
+
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+
+.slider img{
+  width: 100%;
+  height: 100%;
+}
+/* IMAGENES */
+
+/* TEXTO */
+.text-info{
+  color: gold !important;
+}
+/* TEXTO */
+
+
+/* ESTILOS BOTON */
+.boton{
   text-decoration: none;
-  border: 3px solid rgba(255, 255, 255, 0.1);
-  margin: 20px;
-  padding: 20px;
-  width: 20px;
-  border-radius: 8px;
-  cursor: pointer;
-  background-size: 300%;
-  background-image: linear-gradient(to bottom, #000428, #004e92);
-  transition: 0.6s;
-}
-.link:hover {
-  background-position: right;
+  border: 2px solid gold;
+  color:gold;
+  border-radius: 10px;
+  background-color: black;
 }
 
+.boton:hover{
+  color: black;
+  background-color: gold;
+}
+/* ESTILOS BOTON */
 
+/* SECCION RIVALRIES */
 
-main h1 {
-  font-size: 40px;
-  justify-content: center;
-  text-align: center;
+/* ESTILOS SECCION TEAMS */
+
+/* TAMAÑO Y COLOR DE LAS CARDS */
+.card{
+  width: 90%;
+  height: 100%;
+  border: 3px solid #362b18;
+  border-radius: 5px;
+  color: rgb(104, 104, 104) !important;
 }
 
-.tit_teams{
-  color: #6a6a6a;
-  font-size: 25px;
-  justify-content: center;
-  text-align: center;
-background: #780206;
-background: -webkit-linear-gradient(to top, #061161, #780206);
-background: linear-gradient(to top, #061161, #780206);
-;
-
-
-}
-.east {
-  background-image: url(../img/Background/b30cd6f1ab3dd2a095cfc4622423dd6a.jpg);
-}
-
-.west {
-  background-image: url(../img/Background/back_west.jpeg);
-}
-.west_east_team {
+.card-body{
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.caja {
-  margin: 15px;
-  padding: 10px;
-  text-align: center;
-  background-color: #000000;
-  border-radius: 30px;
-  border: 1px solid black;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  cursor: default;
-  transition: all 400ms ease;
 }
 
-.caja:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-  transform: translateY(-3%);
+/* TAMAÑO Y COLOR DE LAS CARDS */
+
+/* ESTILOS DE LOS BOTONES */
+
+.btn-secondary {
+  --bs-btn-color: #50422a;
+  --bs-btn-bg: #000000;
+  --bs-btn-border-color: #50422a;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-border-color: #50422a;
 }
 
-.caja p {
-  line-height: 1;
-  color: #6a6a6a;
-  text-align: center;
-}
-
-.caja a {
-  text-decoration: none;
-  display: block;
-  padding: 5px;
-  margin-top: 10px;
-  color: #362b18;
-  border: 1px solid #362b18;
-  border-radius: 4px;
-  transition: all 400ms ease;
-}
-
-.caja a:hover {
+.btn-secondary:hover{
   background-image: linear-gradient(to top, #061161, #780206);
   color: #fff;
 }
-.caja img {
-  width: 200px;
-  height: 260px;
+.card-img, .card-img-top {
+  width: 50%;
+  height: 50%;
 }
+/* ESTILOS DE LOS BOTONES */
 
-footer {
-    background-color: #000000;
-    color: #50422a;
-    text-align: center;
-    justify-content: center;
-  grid-area: footer;
-  border-top: black solid 10px;
-  padding: 20px;
-}
-/* TEAMS ESTILOS */
-
-/* CHAMPIONS ESTILOS */
-
-.header_champ{
-  background-color: #000000;
-  grid-area: header;
-  display: flex;
-}
-
-.tit_champ {
-  color: #50422a;
-font-size: 25px;
-justify-content: center;
-text-align: center;
-background-color: #000000;
-border-top: 2px solid snow;
-border-bottom: 2px solid snow;
-}
-
-.champs{
-  background-image: url(../img/Background/back-champ.jpg);
-}
-
-.campeones{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.link_champ {
-    color: #50422a;
-  text-decoration: none;
-  border: 3px solid rgba(255, 255, 255, 0.1);
-  margin: 20px;
-  padding: 20px;
-  width: 20px;
-  border-radius: 8px;
-  cursor: pointer;
-  background-size: 300%;
-  background-image: linear-gradient(to right, #212020, #000000);
-  transition: 0.6s;
-}
-.link_champ:hover {
-  background-position: right;
-}
-
-.caja_champ {
-  margin: 15px;
-  padding: 10px;
-  text-align: center;
-  background-color: #000000;
-  border-radius: 30px;
-  border: 1px solid black;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  cursor: default;
-  transition: all 400ms ease;
-}
+/* ESTILOS SECCION TEAMS */
 
 
-.caja_champ h3 {
-  line-height: 2;
+
+/* ESTILOS SECCION CHAMPIONS */
+
+.caja_champ h3{
   color: #6a6a6a;
-  text-align: center;
-  font-size: 1.5rem;
 }
-
 
 .caja_champ p {
-  width: 550px;
-  padding: 10px;
   line-height: 1;
   color: #6a6a6a;
-  text-align: center;
 }
 
 .caja_champ a {
   text-decoration: none;
-  display: block;
-  padding: 5px;
-  margin-top: 10px;
   color: #362b18;
   border: 1px solid #362b18;
+  padding: 5px !important ;
   border-radius: 4px;
   transition: all 400ms ease;
 }
@@ -346,94 +266,8 @@ border-bottom: 2px solid snow;
   color: #fff;
 }
 .caja_champ img {
-  width:560px;
-  height:315px;
-}
-
-/* CHAMPIONS ESTILOS */
-
-/* Rivalries Estilos */
-
-.bloq{
-  display: flex;
   width: 100%;
+  height:100%;
 }
 
-.slider{
-  width: 50%;
-  height: 350px;
-  overflow: hidden;
-}
-
-.slider ul{
-  display: flex;
-  animation: cambio 20s infinite alternate linear;
-  width: 400%;
-}
-
-.slider li{
-  width: 100%;
-  list-style-type: none;
-}
-
-.slider img{
-  width: 100%;
-  height: 100%;
-}
-
-@keyframes cambio{
-  0%{margin-left: 0;}
-  20%{margin-left: 0;}
-
-  25%{margin-left: -100%;}
-  45%{margin-left: -100%;}
-
-  50%{margin-left: -200%;}
-  70%{margin-left: -200%;}
-
-  75%{margin-left: -300%;}
-  100%{margin-left: -300%;}
-}
-
-.caja_rivals {
-  margin: 15px;
-  padding: 20px;
-  text-align: center;
-  background-color: #000000;
-  border-radius: 30px;
-  border: 1px solid;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  cursor: default;
-  transition: all 400ms ease;
-}
-
-.caja_rivals p {
-  line-height: 1;
-  color: #6a6a6a;
-  text-align: center;
-}
-
-.caja_rivals a {
-  text-decoration: none;
-  display: block;
-  padding: 5px;
-  margin-top: 10px;
-  color: gold;
-  border: 1px solid gold;
-  border-radius: 4px;
-  transition: all 400ms ease;
-}
-
-.caja_rivals a:hover {
-  background-image: linear-gradient(to right, gold, #000000);
-  color: black;
-}
-
-.caja_rivals h3{
-  justify-content: center;
-  align-items: center;
-  color: gold;
-  font-size: 2rem;
-}
-
-/* Rivalries Estilos */
+/* ESTILOS SECCION CHAMPIONS */
