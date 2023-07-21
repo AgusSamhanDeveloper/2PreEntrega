@@ -3,3 +3,15 @@
     margin: 0 !important;
     box-sizing: border-box !important;
   }
+
+  @import '../scss/color_y_texto/color_fondo.scss';
+  @import '../scss/color_y_texto/texto.scss';
+  @import '../scss/footer/footer.scss';
+  @import '../scss/header/menu/menu.scss';
+  @import '../scss/Main/champions/box.scss';
+  @import '../scss/Main/index/img.scss';
+  @import '../scss/Main/match/match.scss';
+  @import '../scss/Main/rivalries/img.scss';
+  @import '../scss/Main/rivalries/links.scss';
+  @import '../scss/Main/Teams/buttons.scss';
+  @import '../scss/Main/Teams/cards.scss';

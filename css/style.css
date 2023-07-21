@@ -1,4 +1,185 @@
+@charset "UTF-8";
 * {
   padding: 0 !important;
   margin: 0 !important;
   box-sizing: border-box !important; }
+
+.bg-danger {
+  background-image: url(../img/Background/back-index.jpg); }
+
+.h2, h2 {
+  color: black;
+  font-weight: 500; }
+
+p {
+  color: black;
+  font-weight: 700; }
+
+.h3, h3 {
+  color: black; }
+
+.text-info {
+  color: gold !important;
+  width: 100%; }
+
+.nav-link {
+  color: snow !important;
+  padding: 10px !important;
+  margin: 1px !important;
+  background-color: #780206;
+  border: 1px solid black;
+  color: black !important;
+  border-radius: 10px; }
+
+.nav-link:hover {
+  background-color: #000046 !important;
+  border: 1px solid black;
+  color: snow !important; }
+
+.bg-dark {
+  background-image: linear-gradient(to right, #780206, #061161) !important; }
+
+.d-flex {
+  padding: 5px !important;
+  display: flex !important; }
+
+.h1, h1 {
+  font-size: 35px !important;
+  color: black; }
+
+.caja_champ h3 {
+  color: #6a6a6a; }
+
+.caja_champ p {
+  line-height: 1;
+  color: #6a6a6a; }
+
+.caja_champ a {
+  text-decoration: none;
+  color: #362b18;
+  border: 1px solid #362b18;
+  padding: 5px !important;
+  border-radius: 4px;
+  transition: all 400ms ease; }
+
+.caja_champ a:hover {
+  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  color: #fff; }
+
+.caja_champ img {
+  width: 100%;
+  height: 100%; }
+
+.contenedor {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.contenedor ul {
+  display: flex; }
+
+.contenedor li {
+  width: 100%;
+  list-style: none; }
+
+.contenedor img {
+  width: 100%;
+  height: 100%; }
+
+/* COLORES BOTONES BACK Y HOVER */
+.btn-primary {
+  width: 50px;
+  height: 80px;
+  --bs-btn-color: #780206;
+  --bs-btn-bg: #4c0204;
+  --bs-btn-border-color: #780206;
+  --bs-btn-hover-color: #780206;
+  --bs-btn-hover-bg: #780206;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-border-color: #ffffff;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #780206;
+  border-radius: 0px; }
+
+/* COLORES BOTONES BACK Y HOVER */
+/* TAMAÑO DE LOS ESCUDOS */
+.botonera {
+  width: 80%;
+  height: 80%; }
+
+/* TAMAÑO DE LOS ESCUDOS */
+/* CAJAS DE PARTIDOS CON RESULTADOS */
+.cajas {
+  border: 2px solid black;
+  background-color: #4c0204;
+  height: 80%; }
+
+.cajas:hover {
+  background-color: #780206; }
+
+/* ALINEADO DE ITEMS DE LOS PARTIDOS */
+.m-1 {
+  margin: 0.25rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.col-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* ALINEADO DE ITEMS DE LOS PARTIDOS */
+.matches {
+  width: 80%;
+  height: 80%; }
+
+.slider {
+  width: 100%; }
+
+.slider ul {
+  display: flex; }
+
+.slider li {
+  width: 100%;
+  list-style: none; }
+
+.slider img {
+  width: 100%;
+  height: 100%; }
+
+.boton {
+  text-decoration: none;
+  border: 2px solid gold;
+  color: gold;
+  border-radius: 10px;
+  background-color: black; }
+
+.boton:hover {
+  color: black;
+  background-color: gold; }
+
+.btn-secondary {
+  --bs-btn-color: #50422a;
+  --bs-btn-bg: #000000;
+  --bs-btn-border-color: #50422a;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-border-color: #50422a; }
+
+.btn-secondary:hover {
+  background-image: linear-gradient(to top, #061161, #780206);
+  color: #fff; }
+
+.card-img, .card-img-top {
+  width: 50%;
+  height: 50%; }
+
+.card {
+  width: 90%;
+  height: 100%;
+  border: 3px solid #362b18;
+  border-radius: 5px;
+  color: #686868 !important; }
+
+.card-body {
+  width: 100%; }
