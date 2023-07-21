@@ -3,89 +3,456 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Old+Standard+TT&display=swap"
-      rel="stylesheet"
-    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="../css/styles.css" />
     <title>Teams</title>
   </head>
   <body>
-    <header class="header_team">
-      <section class="menu">
-        <div>
-          <a href="../index.html"
-            ><img src="../img/Background/NBA-Logo.png" alt="Logo" width="150px"
-          /></a>
-        </div>
-        <nav>
-          <ul>
-            <li><a class="link" href="../pages/teams.html">Teams</a></li>
-            <li><a class="link" href="../pages/matches.html">Matches</a></li>
-            <li><a class="link" href="../pages/rivalries.html">Rivalries</a></li>
-            <li><a class="link" href="../pages/champions.html">Champions</a></li>
-          </ul>
-        </nav>
-      </section>
-    </header>
+    <header>
+        <section
+          class="d-flex row container-fluid justify-content-center align-items-center bg-dark text-bg-primary"
+        >
+          <!-- LOGO Y TITULO -->
+          <div
+            class="d-flex align-items-center col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-8"
+          >
+            <img src="../img/Background/NBA-Logo.png" width="100px" alt="" />
+            <h1>NBA-National Basketball Associations</h1>
+          </div>
+          <!-- LOGO Y TITULO -->
+  
+          <!-- NAVBAR -->
+          <div
+            class="d-flex justify-content-center align-items-center col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4"
+          >
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/matches.html">Matches</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/rivalries.html">Rivalries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/teams.html">Teams</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/champions.html">Champions</a>
+              </li>
+            </ul>
+          </div>
+          <!-- NAVBAR -->
+        </section>
+      </header>
+      <!-- HEADER -->
 
-    <main>
-      <section class="teams">
-        <div class="west">
-            <div class="tit_teams">
-                <h1>Teams Season 2023</h1>
-                <h2>West Conference</h2></div>
-          <div class="west_east_team">
-            <div class="caja"><img src="../img/Equipos/Conferencia-Oeste/1024px-Los_Angeles_Lakers_logo.png" alt="nba_team_logo"><p>LA Lakers</p><a href="#">Players</a><a href="#">History</a></div>
-            <div class="caja"><img src="../img/Equipos/Conferencia-Oeste/800px-Houston-Rockets-logo.png" alt="nba_team_logo"><p>Houston Rockets</p><a href="#">Players</a><a href="#">History</a></div>
-            <div class="caja"><img src="../img/Equipos/Conferencia-Oeste/Golden_State_Warriors_logo.png" alt="nba_team_logo"><p>Golden State Warriors</p><a href="#">Players</a><a href="#">History</a></div>
-            <div class="caja"><img src="../img/Equipos/Conferencia-Oeste/grizzlies-logo.png" alt="nba_team_logo"><p>Memphis Grizzles</p><a href="#">Players</a><a href="#">History</a></div>
-            <div class="caja"><img src="../img/Equipos/Conferencia-Oeste/logo-Denver-Nuggets.png" alt="nba_team_logo"><p>Denver Nuggets</p><a href="#">Players</a><a href="#">History</a></div>
-            <div class="caja"><img src="../img/Equipos/Conferencia-Oeste/Logo-Minnesota-Timberwolves.png" alt="nba_team_logo"><p>Minnesota Timberwolves</p><a href="#">Players</a><a href="#">History</a></div>
-            <div class="caja"><img src="../img/Equipos/Conferencia-Oeste/los-angeles-clippers-logo.png" alt="nba_team_logo"><p>LA Clippers</p><a href="#">Players</a><a href="#">History</a></div>
-            <div class="caja"><img src="../img/Equipos/Conferencia-Oeste/nba-dallas-mavericks-logo.png" alt="nba_team_logo"><p>Dallas Mavericks</p><a href="#">Players</a><a href="#">History</a></div>
-            <div class="caja"><img src="../img/Equipos/Conferencia-Oeste/oklahoma-city-thunder-logo.png" alt="nba_team_logo"><p>Oklahoma City Thunder</p><a href="#">Players</a><a href="#">History</a></div>
-            <div class="caja"><img src="../img/Equipos/Conferencia-Oeste/pellicans-logo.png" alt="nba_team_logo"><p>New Orleans Pellicans</p><a href="#">Players</a><a href="#">History</a></div>
-            <div class="caja"><img src="../img/Equipos/Conferencia-Oeste/Phoenix_Suns_logo.png" alt="nba_team_logo"><p>Phoneix Suns</p><a href="#">Players</a><a href="#">History</a></div>
-            <div class="caja"><img src="../img/Equipos/Conferencia-Oeste/SacramentoKings.png" alt="nba_team_logo"><p>Sacramento Kings</p><a href="#">Players</a><a href="#">History</a></div>
-            <div class="caja"><img src="../img/Equipos/Conferencia-Oeste/San-Antonio.png" alt="nba_team_logo"><p>San Antonio Spurs</p><a href="#">Players</a><a href="#">History</a></div>
-            <div class="caja"><img src="../img/Equipos/Conferencia-Oeste/TrailBlazers.png" alt="nba_team_logo"><p>Portland Trail Blazzers</p><a href="#">Players</a><a href="#">History</a></div>
-            <div class="caja"><img src="../img/Equipos/Conferencia-Oeste/utah-logo.png" alt="nba_team_logo"><p>Utah Jazz</p><a href="#">Players</a><a href="#">History</a></div>
+
+      <!-- MAIN -->
+
+      <!-- EAST CONFERENCE -->
+      <!-- PRIMER FILA -->
+      <div class="d-flex row bg-dark position-static">
+              <!-- TITULO CONFERENCIA -->
+      <div class="d-flex justify-content-center align-items-center">
+        <h2>Teams NBA Season 2023</h2>
+      </div>
+      <div class="d-flex justify-content-center align-items-center">
+        <h2> East Conference</h2>
+      </div>
+      <!-- TITULO CONFERENCIA -->
+        <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+        <div class="card d-flex justify-content-center align-items-center bg-black">
+          <img src="../img/Equipos/Conferencia-Este/580px-Brooklyn_Nets.png" class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title d-flex justify-content-center align-items-center m-1">Brooklyn Nets</h5>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
           </div>
         </div>
-        <div class="east">
-            <div class="tit_teams"><h2>East Conference</h2></div>
-            <div class="west_east_team">
-                <div class="caja"><img src="../img/Equipos/Conferencia-Este/580px-Brooklyn_Nets.png" alt=""><p>Brooklyn Nets</p><a href="#">Players</a><a href="#">History</a></div>
-                <div class="caja"><img src="../img/Equipos/Conferencia-Este/Atlanta_Hawks_logo.png" alt=""><p>Atlanta Hawks</p><a href="#">Players</a><a href="#">History</a></div>
-                <div class="caja"><img src="../img/Equipos/Conferencia-Este/Boston_Celtics.png" alt=""><p>Boston Celtics</p><a href="#">Players</a><a href="#">History</a></div>
-                <div class="caja"><img src="../img/Equipos/Conferencia-Este/Charlotte_Hornets_(2014).png" alt=""><p>Charlotte Hornets</p><a href="#">Players</a><a href="#">History</a></div>
-                <div class="caja"><img src="../img/Equipos/Conferencia-Este/chicago-bulls-logo.png" alt=""><p>Chicago Bulls</p><a href="#">Players</a><a href="#">History</a></div>
-                <div class="caja"><img src="../img/Equipos/Conferencia-Este/Cleveland_Cavaliers_secondary_logo.png" alt=""><p>Cleveland Cavaliers</p><a href="#">Players</a><a href="#">History</a></div>
-                <div class="caja"><img src="../img/Equipos/Conferencia-Este/Indiana_Pacers.png" alt=""><p>Indiana Pacers</p><a href="#">Players</a><a href="#">History</a></div>
-                <div class="caja"><img src="../img/Equipos/Conferencia-Este/Logo_of_the_Detroit_Pistons.png" alt=""><p>Detroit Pistons</p><a href="#">Players</a><a href="#">History</a></div>
-                <div class="caja"><img src="../img/Equipos/Conferencia-Este/Milwaukee_Bucks_logo.png" alt=""><p>Milwaukee Bucks</p><a href="#">Players</a><a href="#">History</a></div>
-                <div class="caja"><img src="../img/Equipos/Conferencia-Este/nba-miami-heat-logo.png" alt=""><p>Miami Heat</p><a href="#">Players</a><a href="#">History</a></div>
-                <div class="caja"><img src="../img/Equipos/Conferencia-Este/New_York_Knicks_logo.png" alt=""><p>New York Nicks</p><a href="#">Players</a><a href="#">History</a></div>
-                <div class="caja"><img src="../img/Equipos/Conferencia-Este/Orlando_Magic_logo.png" alt=""><p>Orlando Magic</p><a href="#">Players</a><a href="#">History</a></div>
-                <div class="caja"><img src="../img/Equipos/Conferencia-Este/Philadelphia_76ers_logo.png" alt=""><p>Philadelphia 76ers</p><a href="#">Players</a><a href="#">History</a></div>
-                <div class="caja"><img src="../img/Equipos/Conferencia-Este/toronto-raptors-logo.png" alt=""><p>Toronto Raptors</p><a href="#">Players</a><a href="#">History</a></div>
-                <div class="caja"><img src="../img/Equipos/Conferencia-Este/Washington_Wizards_logo.png" alt=""><p>Washington Wizards</p><a href="#">Players</a><a href="#">History</a></div>
-              </div>
         </div>
-      </section>
-    </main>
+        <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+          <div class="card d-flex justify-content-center align-items-center bg-black">
+            <img src="../img/Equipos/Conferencia-Este/Boston_Celtics.png" class="card-img-top m-1 " alt="...">
+          
+            <div class="card-body">
+              <h5 class="card-title d-flex justify-content-center align-items-center m-1">Boston Celtics</h5>
+              <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+              <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+            </div>
+          </div>
+          </div>
+          <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+              <div class="card d-flex justify-content-center align-items-center bg-black">
+                <img src="../img/Equipos/Conferencia-Este/Atlanta_Hawks_logo.png" class="card-img-top" alt="...">
+              
+                <div class="card-body col-12">
+                  <h5 class="card-title d-flex justify-content-center align-items-center m-1">Atlanta Hawks</h5>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+              <div class="card d-flex justify-content-center align-items-center bg-black">
+                <img src="../img/Equipos/Conferencia-Este/Charlotte_Hornets_(2014).png" class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title d-flex justify-content-center align-items-center m-1">Charlotte Hornets</h5>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+              <div class="card d-flex justify-content-center align-items-center bg-black">
+                <img src="../img/Equipos/Conferencia-Este/chicago-bulls-logo.png" class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title d-flex justify-content-center align-items-center m-1">Chicago Bulls</h5>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+              <div class="card d-flex justify-content-center align-items-center bg-black">
+                <img src="../img/Equipos/Conferencia-Este/Cleveland_Cavaliers_secondary_logo.png" class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title d-flex justify-content-center align-items-center m-1">Clev. Cavaliers</h5>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+                </div>
+              </div>
+            </div>
+      </div>
+      <!-- PRIMER FILA -->
+      <!-- SEGUNDA FILA -->
+      <div class="d-flex row bg-dark">
+        <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+        <div class="card d-flex justify-content-center align-items-center bg-black">
+          <img src="../img/Equipos/Conferencia-Este/Indiana_Pacers.png" class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title d-flex justify-content-center align-items-center m-1">Indiana Pacers</h5>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+          <div class="card d-flex justify-content-center align-items-center bg-black">
+            <img src="../img/Equipos/Conferencia-Este/Logo_of_the_Detroit_Pistons.png" class="card-img-top m-1 " alt="...">
+          
+            <div class="card-body">
+              <h5 class="card-title d-flex justify-content-center align-items-center m-1">Detroit Pistons</h5>
+              <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+              <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+            </div>
+          </div>
+          </div>
+          <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+              <div class="card d-flex justify-content-center align-items-center bg-black">
+                <img src="../img/Equipos/Conferencia-Este/Milwaukee_Bucks_logo.png" class="card-img-top" alt="...">
+              
+                <div class="card-body col-12">
+                  <h5 class="card-title d-flex justify-content-center align-items-center m-1">Milwaukee Bucks</h5>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+              <div class="card d-flex justify-content-center align-items-center bg-black">
+                <img src="../img/Equipos/Conferencia-Este/nba-miami-heat-logo.png" class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title d-flex justify-content-center align-items-center m-1">Miami Heat</h5>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+              <div class="card d-flex justify-content-center align-items-center bg-black">
+                <img src="../img/Equipos/Conferencia-Este/New_York_Knicks_logo.png" class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title d-flex justify-content-center align-items-center m-1">NY Knicks</h5>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+              <div class="card d-flex justify-content-center align-items-center bg-black">
+                <img src="../img/Equipos/Conferencia-Este/Orlando_Magic_logo.png" class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title d-flex justify-content-center align-items-center m-1">Orlando Magic</h5>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+                </div>
+              </div>
+            </div>
+      </div>
+      <!-- SEGUNDA FILA -->
+      <!-- TERCERA FILA -->
+      <div class="d-flex row bg-dark">
+        <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+        <div class="card d-flex justify-content-center align-items-center bg-black">
+          <img src="../img/Equipos/Conferencia-Este/Philadelphia_76ers_logo.png" class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title d-flex justify-content-center align-items-center m-1">Philadelphia 76ers</h5>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+          <div class="card d-flex justify-content-center align-items-center bg-black">
+            <img src="../img/Equipos/Conferencia-Este/toronto-raptors-logo.png" class="card-img-top m-1 " alt="...">
+          
+            <div class="card-body">
+              <h5 class="card-title d-flex justify-content-center align-items-center m-1">Toronto Raptors</h5>
+              <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+              <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+            </div>
+          </div>
+          </div>
+          <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+              <div class="card d-flex justify-content-center align-items-center bg-black">
+                <img src="../img/Equipos/Conferencia-Este/Washington_Wizards_logo.png" class="card-img-top" alt="...">
+              
+                <div class="card-body col-12">
+                  <h5 class="card-title d-flex justify-content-center align-items-center m-1">WA Wizards</h5>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+                  <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+                </div>
+              </div>
+            </div>
+      <!-- TERCERA FILA -->
+      <!-- EAST CONFERENCE -->
 
+            <!-- EAST CONFERENCE -->
+      <!-- PRIMER FILA -->
+      <div class="d-flex row bg-dark">
+        <!-- TITULO CONFERENCIA -->
+<div class="d-flex justify-content-center align-items-center" >
+  <h2>West Conference</h2>
+</div>
+<!-- TITULO CONFERENCIA -->
+  <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+  <div class="card d-flex justify-content-center align-items-center bg-black">
+    <img src="../img/Equipos/Conferencia-Oeste/1024px-Los_Angeles_Lakers_logo.png" class="card-img-top" alt="...">
+  
+    <div class="card-body">
+      <h5 class="card-title d-flex justify-content-center align-items-center m-1">LA Lakers</h5>
+      <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+      <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+    <div class="card d-flex justify-content-center align-items-center bg-black">
+      <img src="../img/Equipos/Conferencia-Oeste/800px-Houston-Rockets-logo.png" class="card-img-top m-1 " alt="...">
+    
+      <div class="card-body">
+        <h5 class="card-title d-flex justify-content-center align-items-center m-1">Houston Rockets</h5>
+        <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+        <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+        <div class="card d-flex justify-content-center align-items-center bg-black">
+          <img src="../img/Equipos/Conferencia-Oeste/Golden_State_Warriors_logo.png" class="card-img-top" alt="...">
+        
+          <div class="card-body col-12">
+            <h5 class="card-title d-flex justify-content-center align-items-center m-1">GS Warriors</h5>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+        <div class="card d-flex justify-content-center align-items-center bg-black">
+          <img src="../img/Equipos/Conferencia-Oeste/grizzlies-logo.png" class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title d-flex justify-content-center align-items-center m-0">Memphis Grizzlies</h5>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+        <div class="card d-flex justify-content-center align-items-center bg-black">
+          <img src="../img/Equipos/Conferencia-Oeste/Logo-Minnesota-Timberwolves.png" class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title d-flex justify-content-center align-items-center m-0">MN Timberwolves</h5>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+        <div class="card d-flex justify-content-center align-items-center bg-black">
+          <img src="../img/Equipos/Conferencia-Oeste/los-angeles-clippers-logo.png" class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title d-flex justify-content-center align-items-center m-1">LA Clippers</h5>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- PRIMER FILA -->
+<!-- SEGUNDA FILA -->
+<div class="d-flex row bg-dark">
+  <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+  <div class="card d-flex justify-content-center align-items-center bg-black">
+    <img src="../img/Equipos/Conferencia-Oeste/nba-dallas-mavericks-logo.png" class="card-img-top" alt="...">
+  
+    <div class="card-body">
+      <h5 class="card-title d-flex justify-content-center align-items-center m-1">Dallas Mavericks</h5>
+      <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+      <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+    <div class="card d-flex justify-content-center align-items-center bg-black">
+      <img src="../img/Equipos/Conferencia-Oeste/oklahoma-city-thunder-logo.png" class="card-img-top m-1 " alt="...">
+    
+      <div class="card-body">
+        <h5 class="card-title d-flex justify-content-center align-items-center m-1">OKC Thunders</h5>
+        <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+        <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+        <div class="card d-flex justify-content-center align-items-center bg-black">
+          <img src="../img/Equipos/Conferencia-Oeste/pellicans-logo.png" class="card-img-top" alt="...">
+        
+          <div class="card-body col-12">
+            <h5 class="card-title d-flex justify-content-center align-items-center m-1">NEO Pellicans</h5>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+        <div class="card d-flex justify-content-center align-items-center bg-black">
+          <img src="../img/Equipos/Conferencia-Oeste/Phoenix_Suns_logo.png" class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title d-flex justify-content-center align-items-center m-1">Phoenix Suns</h5>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+        <div class="card d-flex justify-content-center align-items-center bg-black">
+          <img src="../img/Equipos/Conferencia-Oeste/SacramentoKings.png" class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title d-flex justify-content-center align-items-center m-1">Sacramento Kings</h5>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+        <div class="card d-flex justify-content-center align-items-center bg-black">
+          <img src="../img/Equipos/Conferencia-Oeste/San-Antonio.png" class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title d-flex justify-content-center align-items-center m-1">SA Spurs</h5>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- SEGUNDA FILA -->
+<!-- TERCERA FILA -->
+<div class="d-flex row bg-dark">
+  <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+  <div class="card d-flex justify-content-center align-items-center bg-black">
+    <img src="../img/Equipos/Conferencia-Oeste/TrailBlazers.png" class="card-img-top" alt="...">
+  
+    <div class="card-body">
+      <h5 class="card-title d-flex justify-content-center align-items-center m-1">PDX Trail Blazzers</h5>
+      <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+      <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+    <div class="card d-flex justify-content-center align-items-center bg-black">
+      <img src="../img/Equipos/Conferencia-Oeste/utah-logo.png" class="card-img-top m-1 " alt="...">
+    
+      <div class="card-body">
+        <h5 class="card-title d-flex justify-content-center align-items-center m-1">Utah Jazz</h5>
+        <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+        <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-3 col-md-3 col-lg-2 col-xxl-2">
+        <div class="card d-flex justify-content-center align-items-center bg-black">
+          <img src="../img/Equipos/Conferencia-Oeste/logo-Denver-Nuggets.png" class="card-img-top" alt="...">
+        
+          <div class="card-body col-12">
+            <h5 class="card-title d-flex justify-content-center align-items-center m-1">Denver Nuggets</h5>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Players</a>
+            <a href="#" class="btn btn-secondary d-flex justify-content-center align-items-center m-1">Story</a>
+          </div>
+        </div>
+      </div>
+<!-- TERCERA FILA -->
+<!-- EAST CONFERENCE -->
+
+      <!-- MAIN -->
+
+
+          <!-- FOOTER -->
     <footer>
-        <h3>All rigths reserved 2023</h3>
-    </footer>
+        <div
+          class="d-flex justify-content-center align-items-center bg-dark "
+        >
+          <h3>All rights reserved 2023</h3>
+        </div>
+      </footer>
+      <!-- FOOTER -->
+  
+      <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"
+      ></script>
   </body>
-</html>
