@@ -1,0 +1,61 @@
+/* COLORES BOTONES BACK Y HOVER */
+
+.btn-primary {
+    width: 50px;
+    height: 80px;
+    --bs-btn-color: #780206;
+    --bs-btn-bg: #4c0204;
+    --bs-btn-border-color: #780206;
+    --bs-btn-hover-color: #780206;
+    --bs-btn-hover-bg: #780206;;
+    --bs-btn-border-color: black;
+    --bs-btn-hover-border-color: #ffffff;
+    --bs-btn-active-color: #000000;
+    --bs-btn-active-bg: #780206;
+    border-radius: 0px;
+  }
+  
+  /* COLORES BOTONES BACK Y HOVER */
+  
+  /* TAMAÑO DE LOS ESCUDOS */
+  
+  .botonera{
+    width: 80%;
+    height: 80%;
+  }
+  
+  /* TAMAÑO DE LOS ESCUDOS */
+  
+  /* CAJAS DE PARTIDOS CON RESULTADOS */
+  
+  .cajas{
+    border: 2px solid black;
+    background-color: #4c0204;
+    height: 80%;
+  }
+  
+  .cajas:hover{
+    background-color: #780206;
+  }
+  
+  /* ALINEADO DE ITEMS DE LOS PARTIDOS */
+  
+  .m-1 {
+    margin: 0.25rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .col-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* ALINEADO DE ITEMS DE LOS PARTIDOS */
+  
+  .matches{
+    width: 80%;
+    height: 80%;
+  }

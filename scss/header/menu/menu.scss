@@ -1,0 +1,30 @@
+.nav-link {
+    color: snow !important;
+    padding: 10px !important;
+    margin: 1px !important;
+    background-color: #780206;
+    border: 1px solid black;
+    color: black !important;
+    border-radius: 10px;
+  }
+  
+  .nav-link:hover{
+    background-color: #000046 !important;
+    border: 1px solid rgb(0, 0, 0);
+    color: snow !important;
+    
+  } 
+  
+  .bg-dark {
+    background-image: linear-gradient(to right, #780206, #061161) !important;
+  }
+  
+  .d-flex {
+    padding: 5px !important;
+    display: flex !important;
+  }
+  
+  .h1, h1 {
+    font-size: 35px !important;
+    color: rgb(0, 0, 0);
+  }

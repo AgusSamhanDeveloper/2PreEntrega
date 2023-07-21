@@ -1,0 +1,27 @@
+.caja_champ h3{
+    color: #6a6a6a;
+  }
+  
+  .caja_champ p {
+    line-height: 1;
+    color: #6a6a6a;
+  }
+  
+  .caja_champ a {
+    text-decoration: none;
+    color: #362b18;
+    border: 1px solid #362b18;
+    padding: 5px !important ;
+    border-radius: 4px;
+    transition: all 400ms ease;
+  }
+  
+  .caja_champ a:hover {
+    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+    color: #fff;
+  }
+  .caja_champ img {
+    width: 100%;
+    height:100%;
+  }
+  
