@@ -1,0 +1,12 @@
+.boton {
+  text-decoration: none;
+  border: 2px solid gold;
+  color: gold;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.boton:hover {
+  color: black;
+  background-color: gold;
+}/*# sourceMappingURL=links.css.map */

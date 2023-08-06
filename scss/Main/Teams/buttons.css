@@ -1,0 +1,17 @@
+.btn-secondary {
+  --bs-btn-color: #50422a;
+  --bs-btn-bg: #000000;
+  --bs-btn-border-color: #50422a;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-border-color: #50422a;
+}
+
+.btn-secondary:hover {
+  background-image: linear-gradient(to top, #061161, #780206);
+  color: #fff;
+}
+
+.card-img, .card-img-top {
+  width: 50%;
+  height: 50%;
+}/*# sourceMappingURL=buttons.css.map */

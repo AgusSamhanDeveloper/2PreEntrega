@@ -1,0 +1,22 @@
+.contenedor {
+  width: 100%;
+  height: 100%;
+  border: 6px solid #000000;
+  overflow: hidden;
+}
+
+.contenedor ul {
+  display: flex;
+}
+
+.contenedor li {
+  width: 100%;
+  list-style: none;
+}
+
+.contenedor img {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=img.css.map */

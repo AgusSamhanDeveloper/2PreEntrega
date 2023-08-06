@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Old+Standard+TT&family=Sansita+Swashed:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Old+Standard+TT&family=Sansita+Swashed:wght@300&family=Teko:wght@300&display=swap");
 * {
   padding: 0 !important;
   margin: 0 !important;
@@ -8,81 +6,41 @@
 }
 
 .bg-danger {
-  background-image: url(../img/Background/back-index.jpg);
-}
-
-.header-color {
-  background-color: #030205;
-}
-
-.main-color {
-  background-color: #65000b;
-}
-
-.titulo_princ {
-  color: white;
-  font-family: "Sansita Swashed";
-}
-
-.h1, h1 {
-  font-size: 35px !important;
-  color: rgb(0, 0, 0);
-  font-family: "Teko", sans-serif !important;
+  background-color: #242124;
 }
 
 .h2, h2 {
   color: black;
   font-weight: 500;
-  font-family: "Teko", sans-serif;
 }
 
 p {
   color: black;
   font-weight: 700;
-  font-size: 20px;
-  font-family: "Teko";
-}
-
-.nav-link {
-  font-size: 20px;
-  color: black;
-  font-weight: 700;
-  font-family: "Teko";
 }
 
 .h3, h3 {
-  color: rgb(255, 255, 255);
-  font-family: "Teko", sans-serif;
-}
-
-.h5, h5 {
-  font-size: medium;
-  font-family: "Lobster";
+  color: rgb(0, 0, 0);
 }
 
 .text-info {
   color: gold !important;
   width: 100%;
-  font-family: "Sansita Swashed";
-}
-
-.text-decoration-underline {
-  text-decoration: underline !important;
-  color: black;
 }
 
 .nav-link {
-  color: #0b0b0b !important;
+  color: snow !important;
   padding: 10px !important;
   margin: 1px !important;
-  background-color: #660000;
-  border: 1px solid #dd1133;
+  background-color: #780206;
+  border: 1px solid black;
+  color: black !important;
   border-radius: 10px;
 }
 
 .nav-link:hover {
   background-color: #000046 !important;
-  border: 1px solid #0044ff;
+  border: 1px solid rgb(0, 0, 0);
   color: snow !important;
 }
 
@@ -93,6 +51,11 @@ p {
 .d-flex {
   padding: 5px !important;
   display: flex !important;
+}
+
+.h1, h1 {
+  font-size: 35px !important;
+  color: rgb(0, 0, 0);
 }
 
 .caja_champ h3 {
@@ -126,7 +89,6 @@ p {
 .contenedor {
   width: 100%;
   height: 100%;
-  border: 6px solid #000000;
   overflow: hidden;
 }
 
@@ -163,8 +125,8 @@ p {
 /* COLORES BOTONES BACK Y HOVER */
 /* TAMAÑO DE LOS ESCUDOS */
 .botonera {
-  width: 90%;
-  height: 90%;
+  width: 80%;
+  height: 80%;
 }
 
 /* TAMAÑO DE LOS ESCUDOS */
@@ -177,7 +139,6 @@ p {
 
 .cajas:hover {
   background-color: #780206;
-  border: 2px solid rgb(133, 133, 133);
 }
 
 /* ALINEADO DE ITEMS DE LOS PARTIDOS */
@@ -259,6 +220,4 @@ p {
 
 .card-body {
   width: 100%;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
